@@ -28,7 +28,7 @@ typedef struct student {
 //구조체의 크기는 단순히 내부 멤버 변수 값의 합이 아님. CPU의 메모리 효율을 높이기 위해 4 또는 8바이트로 끊어서 읽음 (4byte기준으로 데이터를 읽는게 좀 더 효율적)
 //이를 위해 Padding이라는 빈 바이트 공간을 집어 넣음.  (배열이 들어가 애매하게 35byte가 된 struct가 있으면 36byte로 읽음.) 
 
-struct Point {   // 익명구조체(계층화 가능)
+struct Point {   // 익명구조체(계층화 가능하다)
 	struct {
 		int x, y;
 	};
