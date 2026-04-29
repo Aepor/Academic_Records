@@ -53,3 +53,24 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# IDE
+.idea/
+.vs/
+
+# Visual Studio / C++
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+x64/
+Debug/
+Release/
+*.filters
+*.slnx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
